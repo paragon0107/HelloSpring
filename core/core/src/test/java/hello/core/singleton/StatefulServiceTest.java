@@ -30,7 +30,7 @@ class StatefulServiceTest {
     static class TestConfig{
 
         @Bean
-        public StatefulService statefulSe1rvice(){
+        public StatefulService statefulService(){
             return new StatefulService();
         }
     }
